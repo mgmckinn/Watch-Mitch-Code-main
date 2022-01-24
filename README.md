@@ -4,10 +4,9 @@
 
 ## My Work
 
-<ul>
-<li>HTML/CSS</li>
-<li>JavaScript</li>
-<li>Expanding Cards</li>
-</ul>
+tinyNote
+Run Buddy
+Password Genie
+Expannding Kids
 
 ## My Contact Information
