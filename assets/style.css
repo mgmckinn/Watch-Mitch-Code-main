@@ -1,5 +1,5 @@
 * {
-    border-block-end-color: midnightblue;
+    border-color: midnightblue;
 }
 
 body {
@@ -22,10 +22,18 @@ body {
     padding-top: 50px;
 
 }
+.flex-container{
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-left: 150px;
+    padding-bottom: 200px;
+    flex-wrap: inline;
+    display: flex
+}
 
 .mitch {
-    display: end;
-    padding-left: 250px;
+    display: center;
+    padding-left: 500px;
 }
 
 .my-work-container {
@@ -119,8 +127,8 @@ h4 {
 
 
 
-.kids, .password, .tiny, .buddy {
-    padding-left: 250px;
+.kids, .tiny {
+    padding-left: 350px;
 }
 
 
