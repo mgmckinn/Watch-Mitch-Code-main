@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 * {
     border-color: midnightblue;
 }
@@ -115,17 +117,23 @@ align-items: center;
 background-color: midnightblue;
 }
 
+main {
+display: flex;
+flex-flow: row wrap;
+margin: auto;
+justify-content: center;
+align-items: center;
+padding-left: 200px;
 
+}
 
 
 .container {
-    background-color: pink;
-    display: flex;
-   flex-flow: row wrap;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+display: flex;
+width: 100%;
+height: auto;
 
+    
 
 }
 
@@ -142,14 +150,14 @@ background-color: midnightblue;
     }
 
     .panel img {
-        height: 300px;
-        width: 500px;
+        height: 200px;
+        width: 400px;
         object-fit: cover;
     }
 
 .panel h3 {
-    font-size: 12px;
-    position: absolute;
+    font-size: 50px;
+    position:sticky;
     bottom: 20px;
     left: 20px;
     margin: 0;
